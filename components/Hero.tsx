@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <section id="home" className="px-6 py-16 md:flex justify-between items-center max-w-7xl mx-auto">
-      {/* Left Side */}
+      
       <div className="max-w-xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           Navigating the digital landscape for success
@@ -15,7 +15,7 @@ const Hero = () => {
           Book a consultation
         </button>
 
-        {/* Partner Logos */}
+        
         <div className="flex flex-wrap gap-4 mt-10 opacity-60">
           {['amazon', 'dribbble', 'hubspot', 'notion', 'zoom'].map((brand) => (
             <span key={brand} className="text-sm uppercase tracking-wide">
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Side Image */}
+      
       <div className="mt-10 md:mt-0">
         <img
           src="https://cdn-icons-png.flaticon.com/512/9996/9996551.png"

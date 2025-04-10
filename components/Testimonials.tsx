@@ -39,7 +39,7 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Carousel Dots */}
+       
         <div className="flex justify-center space-x-2">
           {testimonials.map((_, idx) => (
             <span

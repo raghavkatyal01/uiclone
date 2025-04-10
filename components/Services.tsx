@@ -9,9 +9,9 @@ const Services = () => {
           At our digital marketing agency, we offer a range of services to help businesses grow and succeed online.
         </p>
 
-        {/* Cards */}
+        
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Card 1 */}
+          
           <div className="bg-white p-6 rounded-lg shadow-md border-l-[6px] border-[#B9FF66] flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-semibold mb-3">Search engine optimization</h3>
@@ -29,7 +29,7 @@ const Services = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
+          
           <div className="bg-[#B9FF66] p-6 rounded-lg shadow-md flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-semibold mb-3">Pay-per-click advertising</h3>

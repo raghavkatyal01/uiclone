@@ -9,9 +9,9 @@ const WorkingProcess = () => {
           Steps that define how we achieve success for your business
         </p>
 
-        {/* Steps */}
+      
         <div className="space-y-6">
-          {/* Step 1 */}
+          
           <div className="bg-[#F3F3F3] px-6 py-4 rounded-lg border-l-[6px] border-[#B9FF66] shadow-md flex justify-between items-center">
             <div>
               <h3 className="text-lg font-semibold mb-1">01 Consultation</h3>
@@ -26,7 +26,6 @@ const WorkingProcess = () => {
             />
           </div>
 
-          {/* Step 2 */}
           <div className="bg-[#F3F3F3] px-6 py-4 rounded-lg border-l-[6px] border-[#B9FF66] shadow-md flex justify-between items-center">
             <div>
               <h3 className="text-lg font-semibold mb-1">02 Research and Strategy Development</h3>
